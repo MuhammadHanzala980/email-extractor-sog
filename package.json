@@ -1,0 +1,24 @@
+{
+  "name": "microdosify",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.7.4",
+    "dotenv": "^16.4.5",
+    "express": "^4.18.2",
+    "geoip-lite": "^1.4.10",
+    "http": "^0.0.1-security",
+    "mongoose": "^8.1.3",
+    "nodemon": "^3.0.3",
+    "path": "^0.12.7",
+    "url": "^0.11.3",
+    "validator": "^13.11.0"
+  }
+}
