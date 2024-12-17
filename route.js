@@ -19,7 +19,7 @@ const axios = require('axios');
 router.use("/images", async (req, res, next) => {
   const { t, firstName } = req.query;
   const email = t;
-  console.log(req.query)
+  // console.log(req.query)
   // const ip =
   //   req.headers['x-forwarded-for'] ||
   //   req.headers['x-real-ip'] ||
